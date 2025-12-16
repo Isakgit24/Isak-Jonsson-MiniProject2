@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dies game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Die Game </h1>
-    
-<h2 id="name">Write your name</h2>
-<form id="nameForm">
-<label for="username"></label>
-<input type="text" name="username" id="username" />
-<button type="submit">submit</button>
-</form>
+    <h1> Pig dies Game </h1>
+
+    <h2 id="name">Write your name</h2>
+    <form id="nameForm">
+        <label for="username"></label>
+        <input type="text" name="username" id="username" />
+        <button type="submit">submit</button>
+    </form>
+    <div id="rules">
+        <h4>how to play pig:</h4>
+        <p>the Goal of pig is to get to 100 points in as few rounds as possible.</p>
+        <p>
+           Roll 2–6 to add points to the round.</p>
+            <p>Roll 1 and you lose the round points.</p>
+          <p>Hold saves your points and starts a new round.
+           First to 100 points wins.</p>
+    </div>
+      <h1 id="win"></h1>
+    <h3 id="playerName"></h3>
+
+    <div id="scoreBoard">
+        <div>
+        <h4>Total Points</h4>
+        <p id="totalPoints">0</p>
+        </div>
+         <div>
+        <h4>Round Points</h4>
+        <p id="roundPoints">0</p>
+        </div>
+
+        <div>
+        <h4>Rounds</h4>
+        <p id="rounds">0</p>
+       </div>
+
+    </div>
+
+    <div id="btn">
+    <button id="rollBtn">Roll die</button>
+
+    <button id="holdBtn">Hold</button>
+
+    </div>
 
 
-<button id="endRoundBtn">End round</button>
 
-<button id="throwBtn">Throw die</button>
-
-
-    
     <script src="script.js"></script>
 </body>
+
 </html>
