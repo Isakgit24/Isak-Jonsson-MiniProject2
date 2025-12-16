@@ -1,2 +1,2 @@
 # Isak-Jonsson-MiniProject2
-Die game
+Pig die game
