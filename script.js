@@ -43,7 +43,7 @@ let roundScore = 0;
         totalRounds.innerText = `${round}`
             if(totalscore >= 100) {
         win.style.color = 'green'
-        win.innerText = `${input}you got to 100 points in ${round} rounds`
+        win.innerText = `${nameForm.username.value} got to 100 points in ${round} rounds`
     }
         
             console.log(`Round ${round} ${totalscore}`)
